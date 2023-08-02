@@ -64,8 +64,8 @@ export default function Folder({
                   <button onClick={(e) => addingFolderOrNot(e, false)}>
                     + 📄
                   </button>
-                  <button onClick={(e) => renamingNode(e, true)}>✏️</button>
-                  <button onClick={(e) => deletingNode(e, false)}>🗑️</button>
+                  <button onClick={(e) => renamingNode(e)}>✏️</button>
+                  <button onClick={(e) => deletingNode(e)}>🗑️</button>
                 </>
               )}
             </div>
@@ -128,8 +128,8 @@ export default function Folder({
             <div style={{ marginLeft: "30px" }}>
               {showButtons && (
                 <>
-                  <button onClick={(e) => renamingNode(e, true)}>✏️</button>
-                  <button onClick={(e) => deletingNode(e, false)}>🗑️</button>
+                  <button onClick={(e) => renamingNode(e)}>✏️</button>
+                  <button onClick={(e) => deletingNode(e,)}>🗑️</button>
                 </>
               )}
             </div>
